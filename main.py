@@ -36,8 +36,4 @@ while True:
                     elif abs(index_y - thumb_y) < 100:
                         pyautogui.moveTo(index_x, index_y)
     cv2.imshow('Virtual Mouse', frame)
-<<<<<<< HEAD
     cv2.waitKey(1)
-=======
-    cv2.waitKey(1)
->>>>>>> c495bc8bef5638441041abaa68039c705d2cf9e3
